@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MandiMart – Login & Register (Frontend HTML/CSS/JS/Bootstrap)</title>
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-light">
+
+  <div class="container py-5">
+    <div class="row justify-content-center">
+      <div class="col-md-6 col-lg-5">
+        <div class="text-center mb-4">
+          <a href="index.html" class="text-decoration-none">
+            <span class="fs-1">🌾</span>
+            <h3 class="fw-bold text-success mb-0">MandiMart</h3>
+            <span class="text-muted small">Farmer & Buyer Direct Portal</span>
+          </a>
+        </div>
+
+        <div class="card border-0 shadow rounded-4 overflow-hidden">
+          <div class="card-header bg-success text-white py-3 text-center">
+            <h5 class="fw-bold mb-0">Sign In to Your Account</h5>
+            <small class="text-light">Backend handles login, session, and role verification</small>
+          </div>
+
+          <div class="card-body p-4">
+            <form action="/login.php" method="POST">
+              <div class="mb-3">
+                <label class="form-label small fw-bold">Select Role</label>
+                <div class="d-flex gap-2">
+                  <div class="form-check flex-fill p-2 border rounded text-center">
+                    <input class="form-check-input" type="radio" name="role" id="roleFarmer" value="farmer" checked>
+                    <label class="form-check-label small fw-semibold" for="roleFarmer">🌾 Farmer</label>
+                  </div>
+                  <div class="form-check flex-fill p-2 border rounded text-center">
+                    <input class="form-check-input" type="radio" name="role" id="roleBuyer" value="buyer">
+                    <label class="form-check-label small fw-semibold" for="roleBuyer">🛒 Buyer</label>
+                  </div>
+                </div>
+              </div>
+
+              <div class="mb-3">
+                <label class="form-label small fw-bold">Email or Registered Mobile</label>
+                <input type="text" class="form-control" name="identifier" value="ramesh.farmer@mandimart.in" required>
+              </div>
+
+              <div class="mb-3">
+                <label class="form-label small fw-bold">Password</label>
+                <input type="password" class="form-control" name="password" value="password123" required>
+                <div class="form-text small">Default demo password: <code>password123</code></div>
+              </div>
+
+              <button type="submit" class="btn btn-success w-100 fw-bold rounded-pill py-2 shadow-sm">
+                Log In
+              </button>
+            </form>
+          </div>
+
+          <div class="card-footer bg-light text-center py-3 border-top small">
+            <a href="index.html" class="text-success fw-semibold text-decoration-none">← Back to Marketplace</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap 5 Bundle JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

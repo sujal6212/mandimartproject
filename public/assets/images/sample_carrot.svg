@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="carrotGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FF7043"/>
+      <stop offset="50%" stop-color="#F4511E"/>
+      <stop offset="100%" stop-color="#BF360C"/>
+    </linearGradient>
+    <linearGradient id="carrBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFF3E0"/>
+      <stop offset="100%" stop-color="#FFE0B2"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#carrBg)" rx="16"/>
+  <ellipse cx="200" cy="250" rx="75" ry="16" fill="#000000" opacity="0.16"/>
+  
+  <!-- Carrot root taper -->
+  <path d="M 175 110 C 190 105, 220 105, 230 110 C 235 140, 215 220, 202 248 C 200 252, 198 252, 196 248 C 185 220, 168 140, 175 110 Z" fill="url(#carrotGrad)"/>
+  
+  <!-- Subtle root rings -->
+  <path d="M 180 135 Q 200 140 222 135" stroke="#BF360C" stroke-width="2" fill="none" opacity="0.6"/>
+  <path d="M 184 165 Q 200 170 216 165" stroke="#BF360C" stroke-width="2" fill="none" opacity="0.6"/>
+  <path d="M 190 195 Q 200 200 210 195" stroke="#BF360C" stroke-width="1.8" fill="none" opacity="0.6"/>
+  
+  <!-- Green feathery foliage -->
+  <path d="M 200 108 L 195 65 Q 185 50 170 60 Q 185 75 197 105" fill="#43A047"/>
+  <path d="M 202 108 L 210 60 Q 225 45 235 55 Q 220 72 205 105" fill="#2E7D32"/>
+  <path d="M 201 108 L 202 50 Q 202 38 198 42 Q 198 60 201 108" stroke="#1B5E20" stroke-width="2.5" fill="none"/>
+  
+  <text x="200" y="280" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#D84315" letter-spacing="1">DESI SWEET CARROT · GRADE A</text>
+</svg>

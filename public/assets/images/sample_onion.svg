@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <defs>
+    <radialGradient id="onionGrad" cx="40%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#CE93D8"/>
+      <stop offset="40%" stop-color="#AB47BC"/>
+      <stop offset="85%" stop-color="#6A1B9A"/>
+      <stop offset="100%" stop-color="#4A148C"/>
+    </radialGradient>
+    <linearGradient id="onionBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F3E5F5"/>
+      <stop offset="100%" stop-color="#E1BEE7"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#onionBg)" rx="16"/>
+  <ellipse cx="200" cy="245" rx="90" ry="20" fill="#000000" opacity="0.15"/>
+  <!-- Onion bulb shape -->
+  <path d="M 200 95 C 230 130, 270 170, 260 210 C 250 240, 220 248, 200 248 C 180 248, 150 240, 140 210 C 130 170, 170 130, 200 95 Z" fill="url(#onionGrad)"/>
+  <!-- Outer dry skin striations -->
+  <path d="M 200 98 Q 235 160 225 245" stroke="#BA68C8" stroke-width="2.5" fill="none" opacity="0.6"/>
+  <path d="M 200 98 Q 165 160 175 245" stroke="#BA68C8" stroke-width="2.5" fill="none" opacity="0.6"/>
+  <path d="M 200 98 Q 252 175 245 230" stroke="#8E24AA" stroke-width="2" fill="none" opacity="0.5"/>
+  <!-- Root tuft -->
+  <path d="M 194 248 L 190 260 M 198 248 L 199 263 M 204 248 L 208 259" stroke="#8D6E63" stroke-width="2.5"/>
+  <!-- Top neck -->
+  <path d="M 197 95 L 195 80 L 204 80 L 202 95 Z" fill="#8D6E63"/>
+  <text x="200" y="282" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#6A1B9A" letter-spacing="1">NASHIK RED ONION · GRADE A</text>
+</svg>

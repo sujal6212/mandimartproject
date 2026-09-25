@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <defs>
+    <radialGradient id="brinjalGrad" cx="35%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#7B1FA2"/>
+      <stop offset="60%" stop-color="#4A148C"/>
+      <stop offset="100%" stop-color="#1A0033"/>
+    </radialGradient>
+    <linearGradient id="brinBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F3E5F5"/>
+      <stop offset="100%" stop-color="#E1BEE7"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#brinBg)" rx="16"/>
+  <ellipse cx="200" cy="245" rx="80" ry="18" fill="#000000" opacity="0.16"/>
+  <!-- Eggplant Body -->
+  <path d="M 195 110 C 180 130, 140 160, 145 200 C 150 235, 185 245, 210 245 C 240 245, 260 225, 255 190 C 250 150, 220 125, 205 110 Z" fill="url(#brinjalGrad)"/>
+  <ellipse cx="180" cy="170" rx="18" ry="40" fill="#BA68C8" opacity="0.25" transform="rotate(-15 180 170)"/>
+  <!-- Calyx -->
+  <path d="M 198 115 L 195 75 L 204 75 L 202 115 Z" fill="#33691E"/>
+  <path d="M 200 112 Q 170 115 160 135 Q 185 125 200 112 Z" fill="#558B2F"/>
+  <path d="M 200 112 Q 230 115 240 135 Q 215 125 200 112 Z" fill="#558B2F"/>
+  <path d="M 200 112 Q 200 135 202 145 Q 205 130 200 112 Z" fill="#558B2F"/>
+  <text x="200" y="280" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#4A148C" letter-spacing="1">PURPLE ROUND BRINJAL · GRADE B</text>
+</svg>

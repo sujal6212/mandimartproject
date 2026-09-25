@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <defs>
+    <radialGradient id="tomatoGrad" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#FF5252"/>
+      <stop offset="50%" stop-color="#E53935"/>
+      <stop offset="100%" stop-color="#B71C1C"/>
+    </radialGradient>
+    <radialGradient id="highLight" cx="30%" cy="30%" r="30%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="leafGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#66BB6A"/>
+      <stop offset="100%" stop-color="#2E7D32"/>
+    </linearGradient>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F1F8E9"/>
+      <stop offset="100%" stop-color="#DCEDC8"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bgGrad)" rx="16"/>
+  <!-- Shadows -->
+  <ellipse cx="200" cy="245" rx="110" ry="22" fill="#000000" opacity="0.15"/>
+  <ellipse cx="200" cy="242" rx="70" ry="14" fill="#000000" opacity="0.2"/>
+  
+  <!-- Tomato Body -->
+  <ellipse cx="200" cy="165" rx="92" ry="80" fill="url(#tomatoGrad)"/>
+  <path d="M 145 125 C 170 105, 230 105, 255 125 C 290 155, 290 205, 250 230 C 210 250, 190 250, 150 230 C 110 205, 110 155, 145 125 Z" fill="url(#tomatoGrad)"/>
+  
+  <!-- Specular Highlight -->
+  <ellipse cx="165" cy="140" rx="35" ry="22" fill="url(#highLight)" transform="rotate(-20 165 140)"/>
+  
+  <!-- Green Calyx / Stem -->
+  <path d="M 196 115 L 202 85 C 203 78, 208 78, 208 85 L 204 115 Z" fill="#33691E"/>
+  <!-- Sepals -->
+  <path d="M 200 115 Q 170 95 155 105 Q 175 118 200 115 Z" fill="url(#leafGrad)"/>
+  <path d="M 200 115 Q 230 95 245 105 Q 225 118 200 115 Z" fill="url(#leafGrad)"/>
+  <path d="M 200 115 Q 200 85 210 92 Q 205 105 200 115 Z" fill="url(#leafGrad)"/>
+  <path d="M 200 115 Q 185 135 175 140 Q 188 126 200 115 Z" fill="url(#leafGrad)"/>
+  <path d="M 200 115 Q 215 135 225 140 Q 212 126 200 115 Z" fill="url(#leafGrad)"/>
+  
+  <!-- Text Label -->
+  <text x="200" y="278" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#2E7D32" letter-spacing="1">FRESH DESI TOMATO · GRADE A+</text>
+</svg>

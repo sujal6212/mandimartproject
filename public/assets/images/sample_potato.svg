@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <defs>
+    <radialGradient id="potatoGrad" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#D7CCC8"/>
+      <stop offset="35%" stop-color="#BCAAA4"/>
+      <stop offset="75%" stop-color="#8D6E63"/>
+      <stop offset="100%" stop-color="#5D4037"/>
+    </radialGradient>
+    <linearGradient id="potatoBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#EFEBE9"/>
+      <stop offset="100%" stop-color="#D7CCC8"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#potatoBg)" rx="16"/>
+  <ellipse cx="200" cy="245" rx="105" ry="22" fill="#000000" opacity="0.16"/>
+  <!-- Oval potato body -->
+  <path d="M 125 170 C 120 120, 160 110, 210 115 C 265 120, 285 140, 280 185 C 275 225, 235 235, 185 235 C 140 235, 128 205, 125 170 Z" fill="url(#potatoGrad)"/>
+  <!-- Potato eyes -->
+  <ellipse cx="160" cy="150" rx="6" ry="3" fill="#4E342E" opacity="0.7"/>
+  <ellipse cx="230" cy="145" rx="7" ry="4" fill="#4E342E" opacity="0.7" transform="rotate(20 230 145)"/>
+  <ellipse cx="195" cy="185" rx="8" ry="3" fill="#4E342E" opacity="0.6"/>
+  <ellipse cx="245" cy="195" rx="5" ry="3" fill="#4E342E" opacity="0.7"/>
+  <ellipse cx="150" cy="195" rx="5" ry="2" fill="#4E342E" opacity="0.6"/>
+  <text x="200" y="280" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#4E342E" letter-spacing="1">KUFRI JYOTI POTATO · GRADE A</text>
+</svg>

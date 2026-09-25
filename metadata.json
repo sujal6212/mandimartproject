@@ -1,0 +1,6 @@
+{
+  "name": "MandiMart – Agricultural Marketplace",
+  "description": "Digital agricultural marketplace connecting farmers directly with buyers, mandi prices, crop auctions, product comparisons, and AI vegetable quality assessment.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

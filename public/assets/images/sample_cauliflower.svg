@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <defs>
+    <radialGradient id="cauliCurd" cx="35%" cy="30%" r="65%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="50%" stop-color="#F9FBE7"/>
+      <stop offset="85%" stop-color="#E8F5E9"/>
+      <stop offset="100%" stop-color="#C8E6C9"/>
+    </radialGradient>
+    <linearGradient id="cauliBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F1F8E9"/>
+      <stop offset="100%" stop-color="#DCEDC8"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#cauliBg)" rx="16"/>
+  <ellipse cx="200" cy="245" rx="95" ry="20" fill="#000000" opacity="0.14"/>
+  <!-- Outer green wrapper leaves -->
+  <path d="M 120 230 C 100 180, 110 130, 150 110 C 145 150, 150 200, 160 230 Z" fill="#33691E"/>
+  <path d="M 280 230 C 300 180, 290 130, 250 110 C 255 150, 250 200, 240 230 Z" fill="#33691E"/>
+  <path d="M 200 240 C 230 250, 260 240, 260 235 C 230 230, 210 230, 200 240 Z" fill="#558B2F"/>
+  
+  <!-- Florets cluster -->
+  <circle cx="200" cy="165" r="60" fill="url(#cauliCurd)"/>
+  <circle cx="165" cy="150" r="35" fill="url(#cauliCurd)"/>
+  <circle cx="235" cy="150" r="35" fill="url(#cauliCurd)"/>
+  <circle cx="160" cy="185" r="32" fill="url(#cauliCurd)"/>
+  <circle cx="240" cy="185" r="32" fill="url(#cauliCurd)"/>
+  <circle cx="200" cy="135" r="35" fill="url(#cauliCurd)"/>
+  <circle cx="200" cy="200" r="38" fill="url(#cauliCurd)"/>
+  
+  <!-- Curd textures -->
+  <circle cx="180" cy="155" r="14" fill="#FFFFFF" opacity="0.6"/>
+  <circle cx="215" cy="155" r="15" fill="#FFFFFF" opacity="0.6"/>
+  
+  <text x="200" y="280" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#2E7D32" letter-spacing="1">SNOWBALL CAULIFLOWER · GRADE A</text>
+</svg>
